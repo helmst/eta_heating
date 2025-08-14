@@ -1,0 +1,8 @@
+# Beispielkonfiguration für Sensoren
+- name: "Kesseltemperatur"
+  uri: "/112/10021/0/0/12180"
+  unit: "°C"
+
+- name: "Pelletsbehälter"
+  uri: "/112/10021/0/0/12011"
+  unit: "kg"

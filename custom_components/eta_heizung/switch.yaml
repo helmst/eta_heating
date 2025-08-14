@@ -1,0 +1,10 @@
+# Beispielkonfiguration für Schaltbare Entitäten
+- name: "Entaschentaste"
+  uri: "/112/10021/0/0/12112"
+  on_value: "1803"
+  off_value: "1802"
+
+- name: "Ein/Aus Taste"
+  uri: "/112/10101/0/0/12080"
+  on_value: "1"
+  off_value: "0"

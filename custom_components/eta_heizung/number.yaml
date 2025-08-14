@@ -1,0 +1,5 @@
+# Beispielkonfiguration für editierbare Zahlenwerte
+- name: "Heizzeit Montag Zeitfenster 1"
+  uri: "/112/10101/12113/0/1082"
+  min: 0
+  max: 96

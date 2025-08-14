@@ -1,0 +1,14 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ETA Heizung Verbindung",
+        "description": "Bitte gib die IP-Adresse und Port deiner ETA-Heizung an.",
+        "data": {
+          "host": "IP-Adresse/Hostname",
+          "port": "Port (Standard: 8080)"
+        }
+      }
+    }
+  }
+}
