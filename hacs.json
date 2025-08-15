@@ -1,0 +1,11 @@
+{
+  "name": "ETA Heizung Integration",
+  "description": "Integration für ETA-Heizung REST API in Home Assistant. Liefert Sensoren, Schalter und editierbare Werte basierend auf der ETA-Menüstruktur.",
+  "render_readme": true,
+  "domains": ["sensor", "switch", "number"],
+  "country": "DE",
+  "codeowners": ["@helmst-ionos"],
+  "homeassistant": "2024.5.0",
+  "iot_class": "local_polling",
+  "integration_type": "integration"
+}
