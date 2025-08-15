@@ -15,12 +15,13 @@ async def async_setup_entry(hass, config_entry):
         "switches": config_entry.options.get("switches", []),
         "numbers": config_entry.options.get("numbers", []),
     }
-    await hass.config_entries.async_forward_entry_setup(config_entry, "sensor")
-    await hass.config_entries.async_forward_entry_setup(config_entry, "switch")
-    await hass.config_entries.async_forward_entry_setup(config_entry, "number")
+    await hass.config_entries.async_forward_entry_setups(
+        config_entry, ["sensor", "switch", "number"]
+    )
     return True
 
 async def async_setup(hass, config):
     """Support YAML setup (falls gewünscht)."""
     hass.data.setdefault(DOMAIN, {})
     return True
+
