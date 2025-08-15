@@ -1,7 +1,7 @@
 {
   "domain": "eta_heizung",
   "name": "ETA Heizung Integration",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "documentation": "https://github.com/helmst-ionos/eta_heizung",
   "requirements": ["requests>=2.30.0", "xmltodict>=0.13.0"],
   "dependencies": [],
